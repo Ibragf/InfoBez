@@ -25,7 +25,7 @@ namespace BruteForce
                            () => SelectionPassword(),
                            () => SelectionPasswordFromEndAlphabet(),
                            () => SelectionPassword(true),
-                           () => SelectionPasswordFromEndAlphabet(false)
+                           () => SelectionPasswordFromEndAlphabet(true)
                        };
         }
 
